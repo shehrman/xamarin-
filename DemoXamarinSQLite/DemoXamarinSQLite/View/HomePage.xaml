@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoXamarinSQLite.View.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="Name" Placeholder="Name"></Entry>
+            <Entry x:Name="Address" Placeholder="Address"></Entry>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                <Button x:Name="saveButton" Text="Save Data" Clicked="SaveButton_Clicked"></Button>
+                <Button x:Name="showdata" Text="Show Date" Clicked="Showdata_Clicked"></Button>
+                
+            </StackLayout>
+
+
+            <!--<Button Text="Calender" Clicked="Button_Clicked" ></Button>-->
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
